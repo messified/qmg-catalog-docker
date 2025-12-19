@@ -1,0 +1,111 @@
+############################################
+# macOS
+############################################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+
+############################################
+# VS Code
+############################################
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+############################################
+# Node / JavaScript / TypeScript
+############################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+############################################
+# Environment / Secrets
+############################################
+.env
+.env.*
+!.env.example
+
+############################################
+# Build Outputs
+############################################
+dist/
+build/
+out/
+.next/
+.expo/
+.expo-shared/
+web-build/
+coverage/
+.turbo/
+.cache/
+
+############################################
+# Expo / React Native
+############################################
+android/
+ios/
+*.jks
+*.keystore
+*.p8
+*.mobileprovision
+
+############################################
+# Convex
+############################################
+.convex/
+convex/_generated/
+convex/_deps/
+
+############################################
+# Docker
+############################################
+.dockerignore
+docker-data/
+docker-volumes/
+
+############################################
+# Logs
+############################################
+logs/
+*.log
+
+############################################
+# OS / Editor / Misc
+############################################
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+
+############################################
+# Media / Large Assets (optional – keep if needed)
+############################################
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.aiff
+*.mp3
+*.flac
+*.psd
+*.blend
+
+############################################
+# Testing / Playgrounds
+############################################
+__tests__/
+playground/
+scratch/
